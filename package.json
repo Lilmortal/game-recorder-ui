@@ -1,0 +1,28 @@
+{
+  "name": "game-recorder-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p 3000",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist && rm -rf .cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.18.2"
+  }
+}
