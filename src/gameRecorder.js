@@ -72,8 +72,38 @@ navigator.mediaDevices
     console.log('Error in getting stream', err);
   });
 
-console.log('test');
+window.addEventListener('load', function() {
+  document.getElementById('login').onclick = () => {
+    console.log('test');
+    fetch('http://localhost:8080/login', {
+      method: 'POST',
+    })
+      .then(res => res.json())
+      .then(res => console.log(res));
+  };
 
-fetch('http://localhost:8080/login')
-  .then(res => res.json())
-  .then(res => console.log(res));
+  document.getElementById('matches').onclick = () => {
+    fetch('http://localhost:8080/matches', {
+      method: 'POST',
+      headers: {
+        'X-CSRF-TOKEN': getCookie('anti-csrf-token'),
+      },
+    })
+      .then(res => res.json())
+      .then(res => console.log(res));
+  };
+});
+
+function getCookie(input) {
+  var cookies = document.cookie.split(';');
+  for (var i = 0; i < cookies.length; i++) {
+    var name = cookies[i].split('=')[0].toLowerCase();
+    var value = cookies[i].split('=')[1].toLowerCase();
+    if (name === input) {
+      return value;
+    } else if (value === input) {
+      return name;
+    }
+  }
+  return '';
+}
