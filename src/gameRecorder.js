@@ -74,23 +74,23 @@ navigator.mediaDevices
 
 window.addEventListener('load', function() {
   document.getElementById('login').onclick = () => {
-    console.log('test');
     fetch('http://localhost:8080/login', {
       method: 'POST',
-    })
-      .then(res => res.json())
-      .then(res => console.log(res));
+      credentials: 'include',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    }).then(res => console.log(res));
   };
 
   document.getElementById('matches').onclick = () => {
     fetch('http://localhost:8080/matches', {
-      method: 'POST',
+      method: 'GET',
+      credentials: 'include',
       headers: {
-        'X-CSRF-TOKEN': getCookie('anti-csrf-token'),
+        'X-CSRF-Token': getCookie('anti-csrf-token'),
       },
-    })
-      .then(res => res.json())
-      .then(res => console.log(res));
+    }).then(res => console.log(res));
   };
 });
 
