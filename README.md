@@ -1,1 +1,1 @@
-test gregr gbgts gfdbgtb frefrfr regrrxw vgftg ffd
+test gregr gbgts gfdbgtb frefrfr regrrxw vgftg ffd frgr
