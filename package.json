@@ -8,7 +8,7 @@
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist && rm -rf .cache",
-    "release": "standard-version --skip-commit"
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "",
