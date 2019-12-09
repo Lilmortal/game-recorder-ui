@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.20](https://github.com/Lilmortal/game-recorder-ui/compare/v1.4.19...v1.4.20) (2019-12-09)
+
+
+### Bug Fixes
+
+* change ([c78149a](https://github.com/Lilmortal/game-recorder-ui/commit/c78149a80ff6370f93f3ea3e0339205d4ed92726))
+* change ([c78149a](https://github.com/Lilmortal/game-recorder-ui/commit/c78149a80ff6370f93f3ea3e0339205d4ed92726))
+* lets try npm ([4eb3248](https://github.com/Lilmortal/game-recorder-ui/commit/4eb32481f1c86da2310cd27b62236c61b7df8896))
+* lets try npm ([4eb3248](https://github.com/Lilmortal/game-recorder-ui/commit/4eb32481f1c86da2310cd27b62236c61b7df8896))
+
 ### [1.4.19](https://github.com/Lilmortal/game-recorder-ui/compare/v1.4.18...v1.4.19) (2019-12-09)
 
 ### [1.4.18](https://github.com/Lilmortal/game-recorder-ui/compare/v1.4.17...v1.4.18) (2019-12-09)
