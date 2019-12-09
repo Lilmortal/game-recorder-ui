@@ -1732,25 +1732,25 @@ constants-browserify@^1.0.0:
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/constants-browserify/-/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
   integrity sha1-wguW2MYXdIqvHBYCF2DNJ/y4y3U=
 
-conventional-changelog-angular@^5.0.6:
-  version "5.0.6"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-angular/-/conventional-changelog-angular-5.0.6.tgz#269540c624553aded809c29a3508fdc2b544c059"
-  integrity sha1-JpVAxiRVOt7YCcKaNQj9wrVEwFk=
+conventional-changelog-angular@^1.6.6:
+  version "1.6.6"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-angular/-/conventional-changelog-angular-1.6.6.tgz#b27f2b315c16d0a1f23eb181309d0e6a4698ea0f"
+  integrity sha1-sn8rMVwW0KHyPrGBMJ0OakaY6g8=
   dependencies:
     compare-func "^1.3.1"
     q "^1.5.1"
 
-conventional-changelog-atom@^2.0.3:
-  version "2.0.3"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-atom/-/conventional-changelog-atom-2.0.3.tgz#3bd14280aa09fe3ec49a0e8fe97b5002db02aad4"
-  integrity sha1-O9FCgKoJ/j7Emg6P6XtQAtsCqtQ=
+conventional-changelog-atom@^0.2.8:
+  version "0.2.8"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-atom/-/conventional-changelog-atom-0.2.8.tgz#8037693455990e3256f297320a45fa47ee553a14"
+  integrity sha1-gDdpNFWZDjJW8pcyCkX6R+5VOhQ=
   dependencies:
     q "^1.5.1"
 
-conventional-changelog-codemirror@^2.0.3:
-  version "2.0.3"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-codemirror/-/conventional-changelog-codemirror-2.0.3.tgz#ebc088154684f8f5171446b8d546ba6b460d46f2"
-  integrity sha1-68CIFUaE+PUXFEa41Ua6a0YNRvI=
+conventional-changelog-codemirror@^0.3.8:
+  version "0.3.8"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.3.8.tgz#a1982c8291f4ee4d6f2f62817c6b2ecd2c4b7b47"
+  integrity sha1-oZgsgpH07k1vL2KBfGsuzSxLe0c=
   dependencies:
     q "^1.5.1"
 
@@ -1759,7 +1759,7 @@ conventional-changelog-config-spec@2.1.0:
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-config-spec/-/conventional-changelog-config-spec-2.1.0.tgz#874a635287ef8b581fd8558532bf655d4fb59f2d"
   integrity sha1-h0pjUofvi1gf2FWFMr9lXU+1ny0=
 
-conventional-changelog-conventionalcommits@4.2.3, conventional-changelog-conventionalcommits@^4.2.3:
+conventional-changelog-conventionalcommits@4.2.3:
   version "4.2.3"
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.2.3.tgz#22855b32d57d0328951c1c2dc01b172a5f24ea37"
   integrity sha1-IoVbMtV9AyiVHBwtwBsXKl8k6jc=
@@ -1768,98 +1768,118 @@ conventional-changelog-conventionalcommits@4.2.3, conventional-changelog-convent
     lodash "^4.17.15"
     q "^1.5.1"
 
-conventional-changelog-core@^4.1.1:
-  version "4.1.1"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-core/-/conventional-changelog-core-4.1.1.tgz#956f1a2fb476ef2f66c93f673ac040a4159de167"
-  integrity sha1-lW8aL7R27y9myT9nOsBApBWd4Wc=
+conventional-changelog-core@^2.0.11:
+  version "2.0.11"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-core/-/conventional-changelog-core-2.0.11.tgz#19b5fbd55a9697773ed6661f4e32030ed7e30287"
+  integrity sha1-GbX71VqWl3c+1mYfTjIDDtfjAoc=
   dependencies:
-    conventional-changelog-writer "^4.0.11"
-    conventional-commits-parser "^3.0.8"
+    conventional-changelog-writer "^3.0.9"
+    conventional-commits-parser "^2.1.7"
     dateformat "^3.0.0"
     get-pkg-repo "^1.0.0"
-    git-raw-commits "2.0.0"
+    git-raw-commits "^1.3.6"
     git-remote-origin-url "^2.0.0"
-    git-semver-tags "^3.0.1"
-    lodash "^4.17.15"
+    git-semver-tags "^1.3.6"
+    lodash "^4.2.1"
     normalize-package-data "^2.3.5"
     q "^1.5.1"
-    read-pkg "^3.0.0"
-    read-pkg-up "^3.0.0"
-    through2 "^3.0.0"
+    read-pkg "^1.1.0"
+    read-pkg-up "^1.0.1"
+    through2 "^2.0.0"
 
-conventional-changelog-ember@^2.0.4:
-  version "2.0.4"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-ember/-/conventional-changelog-ember-2.0.4.tgz#c29b78e4af7825cbecb6c3fd6086ca5c09471ac1"
-  integrity sha1-wpt45K94JcvstsP9YIbKXAlHGsE=
+conventional-changelog-ember@^0.3.12:
+  version "0.3.12"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-ember/-/conventional-changelog-ember-0.3.12.tgz#b7d31851756d0fcb49b031dffeb6afa93b202400"
+  integrity sha1-t9MYUXVtD8tJsDHf/ravqTsgJAA=
   dependencies:
     q "^1.5.1"
 
-conventional-changelog-eslint@^3.0.4:
-  version "3.0.4"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-eslint/-/conventional-changelog-eslint-3.0.4.tgz#8f4736a23e0cd97e890e76fccc287db2f205f2ff"
-  integrity sha1-j0c2oj4M2X6JDnb8zCh9svIF8v8=
+conventional-changelog-eslint@^1.0.9:
+  version "1.0.9"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-eslint/-/conventional-changelog-eslint-1.0.9.tgz#b13cc7e4b472c819450ede031ff1a75c0e3d07d3"
+  integrity sha1-sTzH5LRyyBlFDt4DH/GnXA49B9M=
   dependencies:
     q "^1.5.1"
 
-conventional-changelog-express@^2.0.1:
-  version "2.0.1"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-express/-/conventional-changelog-express-2.0.1.tgz#fea2231d99a5381b4e6badb0c1c40a41fcacb755"
-  integrity sha1-/qIjHZmlOBtOa62wwcQKQfyst1U=
+conventional-changelog-express@^0.3.6:
+  version "0.3.6"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-express/-/conventional-changelog-express-0.3.6.tgz#4a6295cb11785059fb09202180d0e59c358b9c2c"
+  integrity sha1-SmKVyxF4UFn7CSAhgNDlnDWLnCw=
   dependencies:
     q "^1.5.1"
 
-conventional-changelog-jquery@^3.0.6:
-  version "3.0.6"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-jquery/-/conventional-changelog-jquery-3.0.6.tgz#460236ad8fb1d29ff932a14fe4e3a45379b63c5e"
-  integrity sha1-RgI2rY+x0p/5MqFP5OOkU3m2PF4=
+conventional-changelog-jquery@^0.1.0:
+  version "0.1.0"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-jquery/-/conventional-changelog-jquery-0.1.0.tgz#0208397162e3846986e71273b6c79c5b5f80f510"
+  integrity sha1-Agg5cWLjhGmG5xJztsecW1+A9RA=
   dependencies:
-    q "^1.5.1"
+    q "^1.4.1"
 
-conventional-changelog-jshint@^2.0.3:
-  version "2.0.3"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-jshint/-/conventional-changelog-jshint-2.0.3.tgz#ef6e2caf2ee6ffdfda78fcdf7ce87cf6c512d728"
-  integrity sha1-724sry7m/9/aePzffOh89sUS1yg=
+conventional-changelog-jscs@^0.1.0:
+  version "0.1.0"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-jscs/-/conventional-changelog-jscs-0.1.0.tgz#0479eb443cc7d72c58bf0bcf0ef1d444a92f0e5c"
+  integrity sha1-BHnrRDzH1yxYvwvPDvHURKkvDlw=
+  dependencies:
+    q "^1.4.1"
+
+conventional-changelog-jshint@^0.3.8:
+  version "0.3.8"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-jshint/-/conventional-changelog-jshint-0.3.8.tgz#9051c1ac0767abaf62a31f74d2fe8790e8acc6c8"
+  integrity sha1-kFHBrAdnq69iox900v6HkOisxsg=
   dependencies:
     compare-func "^1.3.1"
     q "^1.5.1"
+
+conventional-changelog-preset-loader@^1.1.8:
+  version "1.1.8"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.8.tgz#40bb0f142cd27d16839ec6c74ee8db418099b373"
+  integrity sha1-QLsPFCzSfRaDnsbHTujbQYCZs3M=
 
 conventional-changelog-preset-loader@^2.3.0:
   version "2.3.0"
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.3.0.tgz#580fa8ab02cef22c24294d25e52d7ccd247a9a6a"
   integrity sha1-WA+oqwLO8iwkKU0l5S18zSR6mmo=
 
-conventional-changelog-writer@^4.0.11:
-  version "4.0.11"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-writer/-/conventional-changelog-writer-4.0.11.tgz#9f56d2122d20c96eb48baae0bf1deffaed1edba4"
-  integrity sha1-n1bSEi0gyW60i6rgvx3v+u0e26Q=
+conventional-changelog-writer@^3.0.9:
+  version "3.0.9"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog-writer/-/conventional-changelog-writer-3.0.9.tgz#4aecdfef33ff2a53bb0cf3b8071ce21f0e994634"
+  integrity sha1-Suzf7zP/KlO7DPO4BxziHw6ZRjQ=
   dependencies:
     compare-func "^1.3.1"
-    conventional-commits-filter "^2.0.2"
+    conventional-commits-filter "^1.1.6"
     dateformat "^3.0.0"
-    handlebars "^4.4.0"
+    handlebars "^4.0.2"
     json-stringify-safe "^5.0.1"
-    lodash "^4.17.15"
-    meow "^5.0.0"
-    semver "^6.0.0"
+    lodash "^4.2.1"
+    meow "^4.0.0"
+    semver "^5.5.0"
     split "^1.0.0"
-    through2 "^3.0.0"
+    through2 "^2.0.0"
 
-conventional-changelog@3.1.15:
-  version "3.1.15"
-  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog/-/conventional-changelog-3.1.15.tgz#103d0b550436cf83e8a59ba88be82ece2613cd9f"
-  integrity sha1-ED0LVQQ2z4PopZuoi+guziYTzZ8=
+conventional-changelog@3.1.15, conventional-changelog@^1.0.0:
+  version "1.1.24"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-changelog/-/conventional-changelog-1.1.24.tgz#3d94c29c960f5261c002678315b756cdd3d7d1f0"
+  integrity sha1-PZTCnJYPUmHAAmeDFbdWzdPX0fA=
   dependencies:
-    conventional-changelog-angular "^5.0.6"
-    conventional-changelog-atom "^2.0.3"
-    conventional-changelog-codemirror "^2.0.3"
-    conventional-changelog-conventionalcommits "^4.2.3"
-    conventional-changelog-core "^4.1.1"
-    conventional-changelog-ember "^2.0.4"
-    conventional-changelog-eslint "^3.0.4"
-    conventional-changelog-express "^2.0.1"
-    conventional-changelog-jquery "^3.0.6"
-    conventional-changelog-jshint "^2.0.3"
-    conventional-changelog-preset-loader "^2.3.0"
+    conventional-changelog-angular "^1.6.6"
+    conventional-changelog-atom "^0.2.8"
+    conventional-changelog-codemirror "^0.3.8"
+    conventional-changelog-core "^2.0.11"
+    conventional-changelog-ember "^0.3.12"
+    conventional-changelog-eslint "^1.0.9"
+    conventional-changelog-express "^0.3.6"
+    conventional-changelog-jquery "^0.1.0"
+    conventional-changelog-jscs "^0.1.0"
+    conventional-changelog-jshint "^0.3.8"
+    conventional-changelog-preset-loader "^1.1.8"
+
+conventional-commits-filter@^1.1.6:
+  version "1.1.6"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-commits-filter/-/conventional-commits-filter-1.1.6.tgz#4389cd8e58fe89750c0b5fb58f1d7f0cc8ad3831"
+  integrity sha1-Q4nNjlj+iXUMC1+1jx1/DMitODE=
+  dependencies:
+    is-subset "^0.1.1"
+    modify-values "^1.0.0"
 
 conventional-commits-filter@^2.0.2:
   version "2.0.2"
@@ -1868,6 +1888,19 @@ conventional-commits-filter@^2.0.2:
   dependencies:
     lodash.ismatch "^4.4.0"
     modify-values "^1.0.0"
+
+conventional-commits-parser@^2.1.7:
+  version "2.1.7"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/conventional-commits-parser/-/conventional-commits-parser-2.1.7.tgz#eca45ed6140d72ba9722ee4132674d639e644e8e"
+  integrity sha1-7KRe1hQNcrqXIu5BMmdNY55kTo4=
+  dependencies:
+    JSONStream "^1.0.4"
+    is-text-path "^1.0.0"
+    lodash "^4.2.1"
+    meow "^4.0.0"
+    split2 "^2.0.0"
+    through2 "^2.0.0"
+    trim-off-newlines "^1.0.0"
 
 conventional-commits-parser@^3.0.8:
   version "3.0.8"
@@ -2893,6 +2926,17 @@ git-raw-commits@2.0.0:
     split2 "^2.0.0"
     through2 "^2.0.0"
 
+git-raw-commits@^1.3.6:
+  version "1.3.6"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/git-raw-commits/-/git-raw-commits-1.3.6.tgz#27c35a32a67777c1ecd412a239a6c19d71b95aff"
+  integrity sha1-J8NaMqZ3d8Hs1BKiOabBnXG5Wv8=
+  dependencies:
+    dargs "^4.0.1"
+    lodash.template "^4.0.2"
+    meow "^4.0.0"
+    split2 "^2.0.0"
+    through2 "^2.0.0"
+
 git-remote-origin-url@^2.0.0:
   version "2.0.0"
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/git-remote-origin-url/-/git-remote-origin-url-2.0.0.tgz#5282659dae2107145a11126112ad3216ec5fa65f"
@@ -2908,6 +2952,14 @@ git-semver-tags@3.0.1, git-semver-tags@^3.0.1:
   dependencies:
     meow "^5.0.0"
     semver "^6.0.0"
+
+git-semver-tags@^1.3.6:
+  version "1.3.6"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/git-semver-tags/-/git-semver-tags-1.3.6.tgz#357ea01f7280794fe0927f2806bee6414d2caba5"
+  integrity sha1-NX6gH3KAeU/gkn8oBr7mQU0sq6U=
+  dependencies:
+    meow "^4.0.0"
+    semver "^5.5.0"
 
 gitconfiglocal@^1.0.0:
   version "1.0.0"
@@ -2964,7 +3016,7 @@ grapheme-breaker@^0.3.2:
     brfs "^1.2.0"
     unicode-trie "^0.3.1"
 
-handlebars@^4.4.0:
+handlebars@^4.0.2:
   version "4.5.3"
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/handlebars/-/handlebars-4.5.3.tgz#5cf75bd8714f7605713511a56be7c349becb0482"
   integrity sha1-XPdb2HFPdgVxNRGla+fDSb7LBII=
@@ -3453,6 +3505,11 @@ is-resolvable@^1.0.0:
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/is-resolvable/-/is-resolvable-1.1.0.tgz#fb18f87ce1feb925169c9a407c19318a3206ed88"
   integrity sha1-+xj4fOH+uSUWnJpAfBkxijIG7Yg=
 
+is-subset@^0.1.1:
+  version "0.1.1"
+  resolved "https://artifactory.aws-ocm.nz/api/npm/npm/is-subset/-/is-subset-0.1.1.tgz#8a59117d932de1de00f245fcdd39ce43f1e939a6"
+  integrity sha1-ilkRfZMt4d4A8kX83TnOQ/HpOaY=
+
 is-svg@^3.0.0:
   version "3.0.0"
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/is-svg/-/is-svg-3.0.0.tgz#9321dbd29c212e5ca99c4fa9794c714bcafa2f75"
@@ -3467,7 +3524,7 @@ is-symbol@^1.0.2:
   dependencies:
     has-symbols "^1.0.0"
 
-is-text-path@^1.0.1:
+is-text-path@^1.0.0, is-text-path@^1.0.1:
   version "1.0.1"
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/is-text-path/-/is-text-path-1.0.1.tgz#4e1aa0fb51bfbcb3e92688001397202c1775b66e"
   integrity sha1-Thqg+1G/vLPpJogAE5cgLBd1tm4=
@@ -3777,7 +3834,7 @@ lodash.uniq@^4.5.0:
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.4:
+lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.2.1:
   version "4.17.15"
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
@@ -5115,7 +5172,7 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
-q@^1.1.2, q@^1.5.1:
+q@^1.1.2, q@^1.4.1, q@^1.5.1:
   version "1.5.1"
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
@@ -5219,7 +5276,7 @@ read-pkg-up@^3.0.0:
     find-up "^2.0.0"
     read-pkg "^3.0.0"
 
-read-pkg@^1.0.0:
+read-pkg@^1.0.0, read-pkg@^1.1.0:
   version "1.1.0"
   resolved "https://artifactory.aws-ocm.nz/api/npm/npm/read-pkg/-/read-pkg-1.1.0.tgz#f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28"
   integrity sha1-9f+qXs0pyzHAR0vKfXVra7KePyg=
